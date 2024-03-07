@@ -1,6 +1,11 @@
 import { IoCartOutline } from "react-icons/io5";
 import { Card, CardHeader, CardTitle } from "../ui/card";
 import "./Shop.scss";
+import shopCatus1 from "../../../public/assets/shop-cactus-1.png";
+import shopCatus2 from "../../../public/assets/shop-cactus-2.png";
+import shopCatus3 from "../../../public/assets/shop-cactus-3.png";
+import shopCatus4 from "../../../public/assets/shop-cactus-4.png";
+import shopCatus5 from "../../../public/assets/shop-cactus-5.png";
 
 const Shop = () => {
   return (
@@ -16,7 +21,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-1.png"
+                src={shopCatus1}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -35,7 +40,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-2.png"
+                src={shopCatus2}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -54,7 +59,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-3.png"
+                src={shopCatus3}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -73,7 +78,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-4.png"
+                src={shopCatus4}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -92,7 +97,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-5.png"
+                src={shopCatus5}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -109,7 +114,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-1.png"
+                src={shopCatus1}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -127,7 +132,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-2.png"
+                src={shopCatus2}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />
@@ -145,7 +150,7 @@ const Shop = () => {
           <Card className="min-h-[250px] w-full cac-card">
             <CardHeader className="relative flex items-center justify-center">
               <img
-                src="../../../public/assets/shop-cactus-3.png"
+                src={shopCatus3}
                 alt=""
                 className="absolute top-[-60px] w-[150px] cac-img"
               />

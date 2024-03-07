@@ -1,5 +1,8 @@
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import "./New.scss";
+import newCatus1 from "../../../public/assets/new-cactus-1.png";
+import newCatus2 from "../../../public/assets/new-cactus-2.png";
+import newCatus3 from "../../../public/assets/new-cactus-3.png";
 
 const New = () => {
   return (
@@ -25,7 +28,7 @@ const New = () => {
             <Card className="min-h-[250px] w-60 text-center cac-card">
               <CardHeader className="relative flex items-center justify-center">
                 <img
-                  src="../../../public/assets/new-cactus-1.png"
+                  src={newCatus1}
                   alt=""
                   className="absolute top-[-60px] w-[150px] cac-img"
                 />
@@ -38,7 +41,7 @@ const New = () => {
             <Card className="min-h-[250px] w-60 text-center cac-card">
               <CardHeader className="relative flex items-center justify-center">
                 <img
-                  src="../../../public/assets/new-cactus-2.png"
+                  src={newCatus2}
                   alt=""
                   className="absolute top-[-60px] w-[150px] cac-img"
                 />
@@ -53,7 +56,7 @@ const New = () => {
             <Card className="min-h-[250px] w-60 text-center cac-card cac-img-3">
               <CardHeader className="relative flex items-center justify-center">
                 <img
-                  src="../../../public/assets/new-cactus-3.png"
+                  src={newCatus3}
                   alt=""
                   className="absolute top-[-60px] w-[150px] cac-img "
                 />

@@ -2,6 +2,7 @@ import { FaFacebookMessenger } from "react-icons/fa";
 import "./Contact.scss";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import contactCactus from "../../../public/assets/contact-cactus.png";
 
 const Contact = () => {
   return (
@@ -43,11 +44,7 @@ const Contact = () => {
         </div>
         <div className="flex flex-col items-center justify-center gap-5 right lg:basis-1/2 basis-full ">
           <div className="flex items-center justify-center">
-            <img
-              src="../../../public/assets/contact-cactus.png"
-              alt=""
-              className="w-[400px] cac-home"
-            />
+            <img src={contactCactus} alt="" className="w-[400px] cac-home" />
           </div>
         </div>
       </div>

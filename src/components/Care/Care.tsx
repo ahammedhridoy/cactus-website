@@ -1,6 +1,6 @@
 import { Checkbox } from "../ui/checkbox";
 import "./Care.scss";
-
+import careCactus from "../../../public/assets/care-cactus.png";
 const Care = () => {
   return (
     <div className="care min-h-[100vh] lg:mt-0 mt-20" id="care">
@@ -9,11 +9,7 @@ const Care = () => {
       </h1>
       <div className="flex flex-wrap gap-5 mt-10 lg:flex-nowrap">
         <div className="flex items-center justify-center left lg:basis-1/2 basis-full">
-          <img
-            src="../../../public/assets/home-cactus.png"
-            alt=""
-            className="w-[400px] cac-home"
-          />
+          <img src={careCactus} alt="" className="w-[400px] cac-home" />
         </div>
         <div className="flex flex-col items-center justify-center gap-5 right lg:basis-1/2 basis-full mdl:p-[80px] p-5">
           <div className="flex space-x-2 items-top">
