@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "../ui/button";
+import homeCactus from "../../../public/assets/home-cactus.png";
 
 const Banner = () => {
   return (
@@ -8,11 +9,7 @@ const Banner = () => {
       id="banner"
     >
       <div className="flex items-center justify-center left lg:basis-1/2 basis-full">
-        <img
-          src="../../../public/assets/home-cactus.png"
-          alt=""
-          className="w-[400px] cac-home"
-        />
+        <img src={homeCactus} alt="" className="w-[400px] cac-home" />
       </div>
       <div className="flex flex-col items-center justify-center right lg:basis-1/2 basis-full">
         <h1 className="lg:text-[80px] text-[40px] mdl:text-[60px] font-bold text-white tracking-wide">
